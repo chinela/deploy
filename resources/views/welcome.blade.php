@@ -19,7 +19,8 @@
             <div class="content">
                 <div class="title m-b-md" style="padding-top: 7em">
 
-                    <livewire:comments/>
+                    {{-- <livewire:comments/> --}}
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime aspernatur, id vero doloremque provident rem eos asperiores at deserunt officia eveniet aperiam dicta corrupti hic quis, dolorem aliquid, distinctio quisquam.
 
                 </div>
             </div>
