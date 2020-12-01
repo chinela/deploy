@@ -19,6 +19,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/about', function () {
+    return 'This is about us';
+});
+
 Route::get('/queue', function () {
     Mail::to('chinedu@gmai.commm')->send(new TestMail());
     return 'working';
