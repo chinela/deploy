@@ -27,6 +27,10 @@ Route::get('/live', function () {
     return 'This is live route';
 });
 
+Route::get('/beta', function () {
+    return 'This is beta route';
+});
+
 Route::get('/queue', function () {
     Mail::to('chinedu@gmai.commm')->send(new TestMail());
     return 'working';
