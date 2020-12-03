@@ -23,6 +23,10 @@ Route::get('/about', function () {
     return 'This is about us';
 });
 
+Route::get('/live', function () {
+    return 'This is live route';
+});
+
 Route::get('/queue', function () {
     Mail::to('chinedu@gmai.commm')->send(new TestMail());
     return 'working';
